@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  line-height: 0;
+  padding-block: 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 24px;
+  padding-block: 8px;
+}
+
+nav ul li:last-child img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 535px) {
+  nav {
+    font-size: 15px;
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+
+  nav img[alt="Logomark"] {
+    width: 135px;
+  }
+
+  nav img[alt="Search icon"] {
+    width: 20px;
+  }
+}

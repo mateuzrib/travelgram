@@ -1,0 +1,20 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-block: 24px;
+}
+
+main img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+}
+
+@media (max-width: 1300px) {
+  main img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+  }
+}
